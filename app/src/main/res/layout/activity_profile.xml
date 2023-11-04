@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        />
+
+    <EditText
+        android:id="@+id/mobileNumber"
+        android:layout_width="340dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:hint="Phone Number"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="340dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:padding="5dp"
+        />
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="340dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:hint="Gender"
+        android:textSize="20dp"
+        android:padding="5dp"
+        />
+
+
+    <Button
+        android:id="@+id/createProfile"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Create Profile"/>
+
+
+
+</LinearLayout>
